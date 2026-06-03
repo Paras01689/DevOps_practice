@@ -7,15 +7,3 @@ services:
     restart: unless-stopped
     ports:
       - "5500:5500"
-
-
-# version: "3.8"
-
-# services:
-#   app:
-#     build:
-#       context: .
-#       dockerfile: Dockerfile
-#     restart: unless-stopped
-#     ports:
-#       - "5500:5500"
